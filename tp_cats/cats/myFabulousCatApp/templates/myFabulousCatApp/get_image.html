@@ -1,0 +1,11 @@
+{% extends 'myFabulousCatApp/body.html' %}
+
+{% block title %}
+  Cats
+{% endblock %}
+
+{% block content %}
+  <div style="display: flex;justify-content: center;">
+    <img width="400" src="data:image/png;base64, {{ cat_image_base64 }}" />
+  </div>
+{% endblock %}
