@@ -12,7 +12,7 @@
 ## Étape 0 : Pré-requis
 Avant de commencer, assurez-vous que votre environnement de travail est correctement configuré :
 
-- Python installé : `pip install django`
+- Python installé : `python --version` - `python3 --version`
 - Django installé : `pip install django`
 - Requests installé : `pip install requests`
 
@@ -68,6 +68,7 @@ python manage.py runserver
 ```
 - Ouvrir ensuite le navigateur à l'adresse suivante : [http://127.0.0.1:8000](http://127.0.0.1:8000)
 
+---
 
 ## Étape 1 : Créer le modèle
 
@@ -85,6 +86,8 @@ python manage.py makemigrations
 python manage.py migrate
 ```
 
+---
+
 ## Étape 2 : Manipuler les données avec l’ORM
 
 Lancer le shell Django :
@@ -100,6 +103,8 @@ python manage.py shell
 - Filtrer les héros actifs
 - Mettre à jour un héros (modifier sa puissance)
 - Supprimer un héros
+
+---
 
 ## Étape 3 : Créer une vue (View)
 
@@ -132,6 +137,7 @@ Cette vue doit :
 
 * Utiliser une boucle `{% for hero in heroes %}`
 
+---
 
 ## Étape 6 : Ajouter une page de détail (bonus)
 
@@ -140,6 +146,7 @@ Cette vue doit :
 3. Créer le template `detail.html`
 4. Ajouter une route `hero/<int:id>/` pour accéder à cette page
 
+---
 
 ## Étape 7 : Ajouter des fichiers statiques
 
