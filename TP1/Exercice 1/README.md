@@ -155,7 +155,15 @@ Cette vue doit :
 1. Dans l’app `heroes`, créer le dossier :  `heroes/static/heroes/`
 
 2. Créer un fichier CSS simple `style.css` dans ce dossier  
-   Exemple : changer la couleur de fond et le style des titres
+```django
+body {
+    background-color: #f5f5f5;
+    font-family: Arial;
+}
+h1 {
+    color: #2b3a67;
+}
+```
 
 3. Relier le CSS au template `index.html` en ajoutant au début du fichier :  
 
