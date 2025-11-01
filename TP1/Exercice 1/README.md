@@ -18,6 +18,11 @@ Avant de commencer, assurez-vous que votre environnement de travail est correcte
 - Django installé : `pip install django`
 - Requests installé : `pip install requests`
 
+**ATTENTION : Pour vous faire gagner du temps, les étapes**
+- *Création du projet Django*
+-  *Création et configuration de l'application Django* 
+**ont déjà été réalisées. Ces commandes sont donc présentes à titre informatif, vous n'avez pas besoin de les refaire !**
+
 ### Création du projet Django
 
 ```bash
