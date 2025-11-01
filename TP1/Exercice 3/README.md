@@ -1,6 +1,6 @@
 # TP Django : Gestion des Super Héros - Partie Administrateur
 
-## Exercice 2
+## Exercice 3
 
 **Remarque :** Cet exercice est la suite de l’Exercice 2 et permet de découvrir l’interface d’administration Django, qui permet de gérer les objets SuperHero et Pouvoir depuis une interface graphique.
 
