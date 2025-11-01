@@ -6,7 +6,7 @@
 
 ## Objectifs
 - Découvrir l’admin auto-généré.
- -Personnaliser l’affichage (list_display), ajouter filtres (list_filter) et recherche (search_fields).
+- Personnaliser l’affichage (list_display), ajouter filtres (list_filter) et recherche (search_fields).
 - Créer une action personnalisée sur plusieurs objets.
 
 
