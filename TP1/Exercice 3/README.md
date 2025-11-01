@@ -22,6 +22,8 @@
 1. Rends toi dans le fichier `models.py`
 2. Écrire un nouveau modèle : Pouvoir. Les pouvoirs doivent contenir un nom de maximum 50 caractères et une description. Les pouvoirs peuvent être associés à plusieurs héros.
 
+*Conseil : n'oubliez pas d'appliquer les migrations*
+
 ## Étape 2 : Enregistrer et personnaliser l’admin
 
 Enregistrez les modèles dans l’administrateur

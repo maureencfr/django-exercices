@@ -155,7 +155,7 @@ Cette vue doit :
 
 ---
 
-## Étape 7 : Ajouter des fichiers statiques
+## Étape 7 : Ajouter des fichiers statiques (bonus)
 
 1. Dans l’app `heroes`, créer le dossier :  `heroes/static/heroes/`
 
