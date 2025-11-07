@@ -77,3 +77,11 @@ Conseil : renseigne toi sur le ```on_delete```, cela pourrait t'être utile !
 3. Ouvre la section Hero Users
 4. Crée un nouvel utilisateur et choisis un héros préféré. Tu devrais voir la colonne “Héros préféré” dans la liste.
 
+### Et pour aller encore plus loin...
+Tu vas créer différents comptes utilisateurs et observer l’impact des permissions sur l’accès à l’interface d’administration.
+
+1. Avec le compte superuser, crée un nouvel utilisateur : Nom d’utilisateur : teststaff, is_staff : coché, is_superuser : décoché, ne lui donne aucune permission ni groupe.
+2. Connecte-toi à l’admin avec teststaff et observe. Pourquoi l'affichage est-il ainsi ?
+3. Retourne sur le compte dans l’admin avec le superuser. Dans la section “Permissions utilisateur”, ajoute change_superhero. Reconnecte-toi avec teststaff. Observe les changements.*
+4. Retourne sur le compte dans l’admin avec le superuser. Crée un groupe “Modérateurs”. Donne-lui les permissions change_superhero et view_superhero. Ajoute ton utilisateur teststaff dans ce groupe. Supprime ses permissions individuelles. Quels changements observes-tu ?
+
