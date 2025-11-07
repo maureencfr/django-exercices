@@ -61,7 +61,10 @@ Pas de panique ! Tout est détaillé dans les étapes ci-dessous.
 
 1. Créer le modèle HeroUser. Ce modèle devra étendre la classe AbstractUser(elle fournit les bases du User standard) et contenir le champ ```favourite_hero``` qui lie le HeroUser à un SuperHero.
 Conseil : renseigne toi sur le ```on_delete```, cela pourrait t'être utile !
+
 **Avant de faire ta migration**
+
+
 2. Mettre à jour la configuration. Dans ```settings.py```, il faut indiquer ton modèle à utiliser
    ```AUTH_USER_MODEL = "heroes.HeroUser"```
 **Si tu migres avant, Django créera la table auth_user standard**
