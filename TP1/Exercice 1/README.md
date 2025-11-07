@@ -15,13 +15,13 @@
 Avant de commencer, assurez-vous que votre environnement de travail est correctement configuré :
 
 - Python installé : `python --version` - `python3 --version`
-- Django installé : `pip install django`
+- Django installé : `python -m django --version` si rien ->  `pip install django`
 - Requests installé : `pip install requests`
 
-**ATTENTION : Pour vous faire gagner du temps, les étapes**
+**Si vous ne parvenez pas à créer un projet, clonez ce dépôt : Pour vous faire gagner du temps, les étapes**
 - *Création du projet Django*
 -  *Création et configuration de l'application Django* 
-**ont déjà été réalisées. Ces commandes sont donc présentes à titre informatif, vous n'avez pas besoin de les refaire !**
+**ont déjà été réalisées.**
 
 ### Création du projet Django
 
