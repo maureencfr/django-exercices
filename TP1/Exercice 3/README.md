@@ -50,7 +50,6 @@ Enregistrez les modèles dans l’administrateur
 
 1. Personnaliser l'admin des Pouvoirs afin qu'on puisse voir la description de ce pouvoir dans la liste et qu'on puisse rechercher les pouvoirs par nom.
 2. Créer une action permettant de (ré)activer un héros.
-3. Ajouter la liste des Pouvoirs de chaque héros dans la liste des SuperHeroes.
 
 ## Étape 5 : Bonus Bonus
  Vous êtes rapides ! Intéressons-nous maintenant à l'authentification.
