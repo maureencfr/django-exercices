@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Ajouter un Super Héros</title>
+</head>
+<body>
+  <h1>Ajouter un nouveau héros</h1>
+
+  <form method="POST" enctype="multipart/form-data">
+    {% csrf_token %}
+    {{ form.as_p }}
+    <button type="submit">Enregistrer</button>
+  </form>
+
+  <p><a href="/"> Retour à la liste</a></p>
+</body>
+</html>
